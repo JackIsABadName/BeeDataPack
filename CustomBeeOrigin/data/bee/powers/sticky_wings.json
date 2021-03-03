@@ -1,0 +1,22 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 20,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:slowness",
+		"duration": 200,
+		"amplifier": 2,
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false
+	},
+	
+	"condition": {
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water"
+	},
+	"name": "Sticky wings",
+	"description": "When in water your wings stick together, causing you to struggle to move, as a result you are slow until your wings dry"
+	
+}

@@ -1,0 +1,21 @@
+
+{
+    "type": "origins:self_action_on_hit",
+
+	"entity_action": {
+	    "type": "origins:chance",
+		"action": {
+			"type": "origins:damage",
+			"amount": 2,
+	 	    "source": {
+				"name": "thorns",
+				"unblockable": true,
+				"bypasses_armor": true
+		    }
+	    },
+		"chance": 0.5
+	},
+	
+	"cooldown": 120,
+	"hidden": true
+}

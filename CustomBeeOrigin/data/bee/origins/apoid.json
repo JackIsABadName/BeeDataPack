@@ -1,0 +1,36 @@
+{
+	"powers": [
+		"origins:vegetarian",
+		"origins:arthropod",
+		"bee:sting",
+		"bee:weak_body",
+		"bee:suicide_attack",
+		"bee:sticky_wings",
+		"bee:sticky_wingstwo",
+		"bee:pollenator",
+		"bee:glide",
+		"bee:cancel_glide",
+		"bee:cancel_glide_a",
+		"bee:cancel_glide_b",
+		"bee:cancel_glide_c",
+		"bee:cancel_glide_d",
+		"bee:cancel_glide_e",
+		"bee:honey_lover",
+		"bee:poppypower",
+		"bee:cornflowerpower",
+		"bee:oxeyepower",
+		"bee:lotvpower",
+		"bee:bodpower",
+		"bee:azurepower",
+		"bee:alliumpower",
+		"bee:honeymaker",
+		"bee:tulippower"
+		
+
+	],
+	"icon": "minecraft:honeycomb",
+	"order": 10,
+	"impact": 2,
+	"name": "Apian",
+	"description": "Ya like jazz? Half bee half human, whats not to love!"
+}

@@ -1,0 +1,67 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:if_else",
+
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:glass_bottle"
+					
+					
+						}
+					}
+				},
+				{
+	
+					"type": "origins:in_block",
+					"block_condition": {
+						"type": "origins:and",
+						"conditions": [
+							{
+								"type": "origins:in_tag",
+								"tag": "minecraft:tall_flowers"
+							},
+							{
+								"type": "origins:offset",
+								"y" : 1,
+								"type": "origins:in_tag",
+								"tag": "minecraft:tall_flowers"
+							}
+						]
+				
+					}
+				}
+			]
+		},
+			
+		
+		"if_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s minecraft:glass_bottle 1",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "give @s minecraft:honey_bottle 1",
+					"permission_level": 4
+				}
+			]
+			
+		}
+	
+	},
+	"interval": 600,
+	"name": "Honey hands",
+	"description": "Standing in tall flowers lets you get to work and fill an empty bottle with honey"
+
+}

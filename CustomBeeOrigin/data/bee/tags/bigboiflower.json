@@ -1,0 +1,10 @@
+
+{
+	"replace": false,
+	"values": [
+		"minecraft:sunflower",
+		"minecraft:rose_bush",
+		"minecraft:lilac",
+		"minecraft:peony",
+	]
+}

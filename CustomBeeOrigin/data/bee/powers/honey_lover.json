@@ -1,0 +1,43 @@
+{
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:honey_bottle"
+		}
+	},
+
+	"food_modifier": {
+		"operation": "addition",
+		"value": 5
+	},
+	"saturation_modifier": {
+		"operation": "addition",
+		"value": 10
+	},
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects": [
+			{
+				"effect": "minecraft:absorption",
+				"is_ambient": true,
+				"show_particles": true,
+				"show_icon": true,
+				"duration": 2400
+			},
+			{
+				"effect": "minecraft:regeneration",
+				"is_ambient": true,
+				"show_particles": true,
+				"show_icon": true,
+				"duration": 100,
+				"amplifier": 1
+			}
+		]
+
+			
+	},
+	"name": "Honey lover",
+	"description": "Honey tastes much better with an apian mouth!"
+	
+}

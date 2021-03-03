@@ -1,0 +1,6 @@
+{
+	"type": "origins:particle",
+	"particle": "minecraft:falling_nectar",
+	"frequency": 100,
+	"hidden": true
+}
